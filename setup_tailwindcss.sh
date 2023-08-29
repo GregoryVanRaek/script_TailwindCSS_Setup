@@ -1,5 +1,4 @@
-echo "IMPORTANT : PLEASE NOTE THAT YOU MUST HAVE INSTALL NODE.JS BEFORE LAUNCHING THIS SCRIPT. IF YOU DIDN'T, GO 
-TO HTTPS://NODEJS.ORG/"
+echo "IMPORTANT: Please note that you need to have Node.js installed before running this script. If you haven't installed it yet, please visit HTTPS://NODEJS.ORG/"
 echo "Continue ?(y/n)"
   read continue
 while [ "$continue" != "y" ] && [ "$continue" != "n"] 
@@ -16,7 +15,7 @@ if [ "$continue" = "y" ]
   npm install -D tailwindcss
   npx tailwindcss init
 
-  # Creating workings files
+  # Creating working files
   touch index.html
   echo "<!DOCTYPE html>
   <html lang="en">
@@ -72,8 +71,8 @@ if [ "$continue" = "y" ]
     plugins: [],
   }" > tailwind.config.js
   
-  echo "Configuration finished. Launch your project with vscode or other text-editor."
-  echo "In the terminal, use the following command to see your changes live"
+  echo "Configuration finished. You can launch your project with Visual Studio Code or any other text editor."
+  echo "Launch the server. In the terminal, use the following command to see your changes live:"
   echo "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   rm ./setup_tailwindcss.sh
 fi
