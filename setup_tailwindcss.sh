@@ -1,3 +1,10 @@
+# -----------------------------------------------------
+# Setup Tailwind CSS Script
+# Created by Grégory Van Raek
+# GitHub: https://github.com/GregoryVanRaek
+# Date: 29/08/2023
+# -----------------------------------------------------
+
 echo "IMPORTANT: Please note that you need to have Node.js installed before running this script. If you haven't installed it yet, please visit HTTPS://NODEJS.ORG/"
 echo "Continue ?(y/n)"
   read continue
