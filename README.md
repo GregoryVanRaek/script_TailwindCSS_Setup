@@ -1,6 +1,6 @@
 # Setup Tailwind CSS Script
 
-This script automates the process of setting up Tailwind CSS in a project directory. It creates the necessary files and configurations to help you get started quickly with Tailwind CSS.
+This script automates the process of setting up Tailwind CSS in a new project directory. It creates the necessary files and configurations to help you get started quickly your new project with Tailwind CSS.
 
 Before running this script, make sure you have the following prerequisites installed on your system:
 
